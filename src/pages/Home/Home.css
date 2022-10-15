@@ -1,0 +1,65 @@
+.take-a-note{
+box-shadow: 0px 0px 5px rgb(88 83 83);
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    width: 399px;
+    height: 55px;
+    margin-top: 47px !important;
+    display: flex;
+
+}
+.note-main{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.icon{
+    padding-top: 10px;
+    width: 50%;
+}
+.take-a-notes {
+   box-shadow: 0px 0px 5px rgb(88, 83, 83);
+    width: 227px;
+    height: 43px;
+    margin-top: 50px;
+    display: flex;
+}
+.icons {
+    padding-top: 39px;
+        width: 110%;
+        justify-content: space-between;
+        display: flex;
+        color: rgba(0, 0, 0, 0.589);
+}
+.person{
+    width: 500px;
+        height: auto;
+        margin: 30px auto;
+        padding: 29px;
+        box-shadow: 0px 0px 5px grey;
+}
+.btnclose{
+    padding-right: 53px;
+    padding-left: 65px;
+   
+}
+.pinIcon {
+    padding-left: 423px;
+    color: rgba(0, 0, 0, 0.589);
+}
+.note{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border: "1px solid black";
+  
+}
+.view-note{
+    border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        width: 240px;
+        margin: 8px;
+        box-shadow: none;
+}

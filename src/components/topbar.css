@@ -1,0 +1,156 @@
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  background-color: #1877f2;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarLeft {
+  flex: 3;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.topbarCenter {
+  flex: 5;
+padding-left: 50px;
+}
+
+.searchbar {
+    height: 50px;
+    width: 550px;
+      background-color: rgb(240, 245, 247);
+      border-radius: 0px;
+      display: flex;
+      align-items: center;
+}
+
+.searchIcon {
+  font-size: 30px !important;
+  margin-left: 10px;
+  color:rgba(0, 0, 0, 0.603) ;
+}
+
+.searchInput {
+  border: none;
+  width: 70%;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.topbarLink {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.topbarIcons {
+  display: flex;
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.topbarImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.other-icon {
+        display: flex;
+          margin-left: 295px;
+          padding-top: 8px;
+          margin-right: -245px;
+}
+
+
+.refresh-icon {
+  color: #5f6368;
+  opacity: 1;
+  cursor: pointer;
+  padding: 10px;
+  transform: scale(1.1);
+  border-radius: 50px;
+}
+
+.gridView {
+  color: #5f6368;
+  opacity: 1;
+  cursor: pointer;
+  padding: 10px;
+  transform: scale(1.1);
+  padding-left: 20px;
+  border-radius: 50px;
+}
+
+.setting {
+  color: #5f6368;
+  opacity: 1;
+  cursor: pointer;
+  padding: 10px;
+  transform: scale(1.1);
+  padding-left: 20px;
+  border-radius: 50px;
+}
+
+.apps {
+  color: #5f6368;
+  opacity: 1;
+  cursor: pointer;
+  padding-top: 10px;
+  transform: scale(1.1);
+  padding-left: 20px;
+  border-radius: 50px;
+}
+
+.logout button {
+    border: 1px solid black;
+      position: absolute;
+      top: 15px;
+      right: 100px;
+      width: 20vh;
+      height: 40px;
+      font-size: medium;
+      font-family: "Product Sans", Arial, sans-serif;
+      background-color: #FABC05;
+    }
